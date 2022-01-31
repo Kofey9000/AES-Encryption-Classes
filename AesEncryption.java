@@ -189,6 +189,7 @@ class AesEncryption {
      * @param path The file path.
      * @param password Optional, the password.
      * @return The new file path.
+     * wael kofey
      */
     public String encryptFile(String path, String... password) {
         byte[] salt = randomBytes(saltLen);
